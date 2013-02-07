@@ -18,6 +18,8 @@
 		B547B6FC16C35A770064379F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B547B6FB16C35A770064379F /* Default-568h@2x.png */; };
 		B547B6FF16C35A770064379F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B547B6FD16C35A770064379F /* MainStoryboard.storyboard */; };
 		B547B70216C35A770064379F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B547B70116C35A770064379F /* ViewController.m */; };
+		B547B70A16C366A90064379F /* FirstTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B547B70916C366A90064379F /* FirstTableView.m */; };
+		B547B70D16C366BB0064379F /* SecondTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B547B70C16C366BB0064379F /* SecondTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		B547B6FE16C35A770064379F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B547B70016C35A770064379F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B547B70116C35A770064379F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B547B70816C366A90064379F /* FirstTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableView.h; sourceTree = "<group>"; };
+		B547B70916C366A90064379F /* FirstTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableView.m; sourceTree = "<group>"; };
+		B547B70B16C366BB0064379F /* SecondTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableView.h; sourceTree = "<group>"; };
+		B547B70C16C366BB0064379F /* SecondTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				B547B6F416C35A770064379F /* AppDelegate.h */,
 				B547B6F516C35A770064379F /* AppDelegate.m */,
 				B547B6FD16C35A770064379F /* MainStoryboard.storyboard */,
+				B547B70816C366A90064379F /* FirstTableView.h */,
+				B547B70916C366A90064379F /* FirstTableView.m */,
+				B547B70B16C366BB0064379F /* SecondTableView.h */,
+				B547B70C16C366BB0064379F /* SecondTableView.m */,
 				B547B70016C35A770064379F /* ViewController.h */,
 				B547B70116C35A770064379F /* ViewController.m */,
 				B547B6EC16C35A770064379F /* Supporting Files */,
@@ -176,6 +186,8 @@
 				B547B6F216C35A770064379F /* main.m in Sources */,
 				B547B6F616C35A770064379F /* AppDelegate.m in Sources */,
 				B547B70216C35A770064379F /* ViewController.m in Sources */,
+				B547B70A16C366A90064379F /* FirstTableView.m in Sources */,
+				B547B70D16C366BB0064379F /* SecondTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +310,7 @@
 				B547B70716C35A770064379F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
