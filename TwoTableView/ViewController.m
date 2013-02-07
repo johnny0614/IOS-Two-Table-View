@@ -20,16 +20,22 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (void) setup
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     if(!_firstItems) {
         _firstItems = [@[@"1",@"2",@"3",@"4"] mutableCopy];
     }
     if (!_secondItems) {
         _secondItems = [@[@"a",@"b",@"c",@"d",@"e"] mutableCopy];
     }
+
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+    [self setup];
 }
 
 - (void)didReceiveMemoryWarning
